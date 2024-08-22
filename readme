@@ -1,0 +1,89 @@
+  <main>
+        <section class="overview">
+            <h1>Bem-vindo, Seu Nome</h1>
+            <p>Gerencie suas informações, privacidade e segurança para aproveitar ao máximo o Google.</p>
+        </section>
+
+        <section class="info-cards">
+            <div class="card">
+                <h2>Informações Pessoais</h2>
+                <p>Gerencie suas informações pessoais e como você se identifica no Google.</p>
+                <a href="#">Gerenciar Informações Pessoais</a>
+            </div>
+            <div class="card">
+                <h2>Segurança</h2>
+                <p>Mantenha sua conta segura com verificação em duas etapas e outras opções de segurança.</p>
+                <a href="#">Gerenciar Segurança</a>
+            </div>
+            <div class="card">
+                <h2>Privacidade</h2>
+                <p>Controle o que você compartilha e quem pode ver suas informações.</p>
+                <a href="#">Gerenciar Privacidade</a>
+            </div>
+            <div class="card">
+                <h2>Pagamentos e Assinaturas</h2>
+                <p>Veja seus métodos de pagamento, transações e assinaturas do Google.</p>
+                <a href="#">Gerenciar Pagamentos</a>
+            </div>
+        </section>
+    </main>
+
+
+
+    main {
+        padding: 40px 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .overview {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .overview h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+        color: #202124;
+    }
+    
+    .overview p {
+        font-size: 18px;
+        color: #5f6368;
+    }
+    
+    .info-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+    }
+    
+    .card {
+        background-color: #fff;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    .card h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        color: #202124;
+    }
+    
+    .card p {
+        font-size: 16px;
+        color: #5f6368;
+        margin-bottom: 20px;
+    }
+    
+    .card a {
+        text-decoration: none;
+        color: #1a73e8;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+
